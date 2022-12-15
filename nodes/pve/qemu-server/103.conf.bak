@@ -1,0 +1,27 @@
+agent: 1
+args: -device isa-applesmc,osk="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc" -smbios type=2 -device usb-kbd,bus=ehci.0,port=2 -global nec-usb-xhci.msi=off -cpu host,kvm=on,vendor=GenuineIntel,+kvm_pv_unhalt,+kvm_pv_eoi,+hypervisor,+invtsc
+balloon: 0
+bios: ovmf
+boot: order=virtio0
+cores: 16
+cpu: Penryn
+efidisk0: kingston-500g:vm-103-disk-1,size=1M
+hostpci0: 0000:01:00,pcie=1,x-vga=1
+hostpci1: 0000:03:00,pcie=1
+machine: q35
+memory: 20480
+name: menterey
+net0: virtio=F6:43:66:FB:70:0C,bridge=vmbr0
+numa: 1
+ostype: other
+scsihw: virtio-scsi-single
+smbios1: uuid=1100b91d-76fa-4def-b465-43a858eb6fbe
+sockets: 1
+unused0: hdd-8t:vm-103-disk-0
+usb0: host=1-10.1,usb3=1
+usb1: host=1-10.2,usb3=1
+usb2: host=1-13.3.3
+vga: none
+virtio0: kingston-500g:vm-103-disk-0,cache=unsafe,discard=on,iothread=1,size=300G
+virtio1: /dev/sdb,discard=on,size=488386584K
+vmgenid: 94d5345e-1043-4daf-b224-354d73f60152

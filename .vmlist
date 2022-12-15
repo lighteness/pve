@@ -1,0 +1,14 @@
+{
+"version": 12,
+"ids": {
+"201": { "node": "pve", "type": "qemu", "version": 7 },
+"505": { "node": "pve", "type": "qemu", "version": 3 },
+"101": { "node": "pve", "type": "qemu", "version": 19 },
+"301": { "node": "pve", "type": "qemu", "version": 4 },
+"203": { "node": "pve", "type": "qemu", "version": 5 },
+"333": { "node": "pve", "type": "qemu", "version": 16 },
+"202": { "node": "pve", "type": "qemu", "version": 2 },
+"501": { "node": "pve2", "type": "qemu", "version": 9 },
+"106": { "node": "pve", "type": "qemu", "version": 1 }}
+
+}

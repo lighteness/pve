@@ -1,0 +1,13 @@
+boot: order=scsi0;net0
+cores: 4
+memory: 2048
+name: ubuntu
+net0: virtio=B2:39:7E:3C:FE:46,bridge=vmbr0,firewall=1
+numa: 0
+ostype: l26
+scsi0: local-lvm:vm-102-disk-0,cache=unsafe,discard=on,size=32G
+scsihw: virtio-scsi-pci
+smbios1: uuid=bef2e65e-1867-43a2-af28-f8ad9e053d93
+sockets: 1
+vga: vmware
+vmgenid: 86d370ec-224d-4cb5-b3a0-a76c4ca208ab
